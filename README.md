@@ -30,3 +30,15 @@ to execute the whole pipeline.
 
 **Out-of-the-Box version on CoLab**
 In progress...
+
+## Reference
+Bibtex:
+  
+    @article{chen-etal-2020-what,
+      title={Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference},
+      author={Li, Bangzheng and Yin, Wenpeng and Chen, Muhao},
+      journal={Transactions of the Association for Computational Linguistics},
+      volume={10},
+      year={2022},
+      publisher={MIT Press}
+    }
