@@ -34,7 +34,7 @@ In progress...
 ## Reference
 Bibtex:
   
-    @article{chen-etal-2020-what,
+    @article{li-etal-2022-lite,
       title={Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference},
       author={Li, Bangzheng and Yin, Wenpeng and Chen, Muhao},
       journal={Transactions of the Association for Computational Linguistics},
