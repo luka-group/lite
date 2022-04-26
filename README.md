@@ -7,7 +7,7 @@ The task of ultra-fine entity typing (UFET) seeks to predict diverse and free-fo
 
 This work presents LITE:beers:, a new approach that formulates entity typing as a natural language inference (NLI) problem, making use of (i) the indirect supervision from NLI to infer type information meaningfully represented as textual hypotheses and alleviate the data scarcity issue, as well as (ii) a learning-to-rank objective to avoid the pre-defining of a type set. Experiments show that, with limited training data, LITE obtains state-of-the-art performance on the UFET task. In addition, LITE demonstrates its strong generalizability, by not only yielding best results on other fine-grained entity typing benchmarks, more importantly, a  pre-trained LITE system works well on new data containing unseen types.
 
-![Fig1 in paper](https://github.com/luka-group/lite)
+![Fig1 in paper](https://github.com/luka-group/lite/blob/main/readme/lite.png)
 
 ## Environment
 
