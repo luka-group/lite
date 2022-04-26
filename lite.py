@@ -178,30 +178,17 @@ def main():
 
     parser.add_argument("--data_dir",
                         type=str,
-                        default='/shared/xingyu/projects/nli/cleaned/data',
+                        default='/data/ultrafine/lite',
                         help="The input data directory.")
     parser.add_argument("--output_dir",
                         type=str,
-                        default='/shared/xingyu/projects/nli/cleaned',
+                        default='/output',
                         help="The output directory where the model will be saved.")
-    # parser.add_argument("--do_train",
-    #                     action='store_true',
-    #                     help="Whether to run training.")
-    # parser.add_argument("--do_eval",
-    #                     action='store_true',
-    #                     help="Whether to run eval on the dev set.")
+
     parser.add_argument("--train_batch_size",
                         default=16,
                         type=int,
                         help="Total batch size for training.")
-    # parser.add_argument("--eval_batch_size",
-    #                     default=16,
-    #                     type=int,
-    #                     help="Total batch size for eval.")
-    # parser.add_argument("--pretrained_model",
-    # type=str,
-    # default="roberta-large-mnli",
-    # help="The backbone nli model.")
 
     # training arguments
     parser.add_argument("--learning_rate",
@@ -209,7 +196,7 @@ def main():
                         type=float,
                         help="The initial learning rate for Adam.")
     parser.add_argument("--num_train_epochs",
-                        default=1500,
+                        default=2000,
                         type=float,
                         help="Total number of training epochs to perform.")
     parser.add_argument("--margin",
