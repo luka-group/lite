@@ -26,7 +26,7 @@ The program ./lite.py runs the experiment for training and ./inference.py for in
 to execute the whole pipeline. 
 
 ## Link to the pre-trained full models
-**Pre-trained LITE checkpoint** is available at https://drive.google.com/file/d/1gICYx_UzHGcRNg3k-DPNx9w0JJKHg4AR/view?usp=sharing for users to do inference on their own data.
+**Pre-trained LITE checkpoint** is available at https://drive.google.com/file/d/1gICYx_UzHGcRNg3k-DPNx9w0JJKHg4AR/view?usp=sharing for users to do inference with their own inputs.
 
 **Out-of-the-Box version on CoLab**
 In progress...
