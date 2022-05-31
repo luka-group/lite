@@ -22,11 +22,15 @@ Ultra-fine Entity Typing(UFET) data is available at https://www.cs.utexas.edu/~e
 
 
 ## Run the experiment  
-The program ./lite.py runs the experiment for training and ./inference.py for inferencing. Modify the parameters and run ./run.sh
-to execute the whole pipeline. 
+1. Download UFET data and move its /release directory to /data
+2. Run data/process_ultrafine.py to pre-process UFET data
+3. Edit and run lite.sh to run the experiment for training.
+4. Edit and run eval.sh to generate type vocab rankings given their confidence score
+5. Edit and run result.sh to calculate the best threshold on dev set and generate the typing result on test set given such threshold.
 
-## Link to the pre-trained full models
+## Link to the pre-trained full models and results
 **Pre-trained LITE checkpoint** is available at https://drive.google.com/file/d/1gICYx_UzHGcRNg3k-DPNx9w0JJKHg4AR/view?usp=sharing for users to do inference on their own data.
+**Result** of our pre-trained LITE is available at https://drive.google.com/file/d/1c02mOh_dozJq7afeUwGfXXn-cXcDV9vq/view?usp=sharing
 
 **Out-of-the-Box version on CoLab**
 In progress...

@@ -28,11 +28,12 @@ class TypingDataset(Dataset):
             entity = line['entity']
             # could truncate generated annotation
             annotation = line['annotation']
+            idx = line['id']
             annotation_general = list(set(annotation).intersection(set(self.general_lst)))
             annotation_fine = list(set(annotation).intersection(set(self.fine_lst)))
             annotation_ultrafine = list(set(annotation).intersection(set(self.ultrafine_lst)))
 
-            self.data.append([premise, entity, annotation, annotation_general, annotation_fine, annotation_ultrafine])
+            self.data.append([premise, entity, annotation, annotation_general, annotation_fine, annotation_ultrafine, idx])
 
 
     def __getitem__(self, idx):
