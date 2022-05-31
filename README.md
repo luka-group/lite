@@ -28,14 +28,10 @@ The Ultra-fine Entity Typing (UFET) dataset is available at https://www.cs.utexa
 4. Edit and run eval.sh to generate type vocab rankings given their confidence score
 5. Edit and run result.sh to calculate the best threshold on dev set and generate the typing result on test set given such threshold.
 
-<<<<<<< HEAD
+
 ## Link to the pre-trained full models and results
 **Pre-trained LITE checkpoint** is available at https://drive.google.com/file/d/1gICYx_UzHGcRNg3k-DPNx9w0JJKHg4AR/view?usp=sharing for users to do inference on their own data.
-**Result** of our pre-trained LITE is available at https://drive.google.com/file/d/1c02mOh_dozJq7afeUwGfXXn-cXcDV9vq/view?usp=sharing
-=======
-## Link to the pre-trained full models
-**Pre-trained LITE checkpoint** is available at https://drive.google.com/file/d/1gICYx_UzHGcRNg3k-DPNx9w0JJKHg4AR/view?usp=sharing for users to do inference with their own inputs.
->>>>>>> 64014d4492b684af317a66718bb58c22a668a089
+**Result** of our pre-trained LITE is available at https://drive.google.com/file/d/1c02mOh_dozJq7afeUwGfXXn-cXcDV9vq/view?usp=sharing.
 
 **Out-of-the-Box version on CoLab**
 In progress...
