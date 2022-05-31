@@ -23,18 +23,6 @@ pretrained_model = "roberta-large-mnli"
 """
   Model
 """
-#
-#
-# class roberta_mnli_typing(nn.Module):
-#     def __init__(self):
-#         super(roberta_mnli_typing, self).__init__()
-#         self.roberta_module = RobertaForSequenceClassification.from_pretrained(pretrained_model)
-#         self.config = RobertaConfig.from_pretrained(pretrained_model)
-#
-#     def forward(self, input_ids, attention_mask):
-#         roberta_output = self.roberta_module(input_ids, attention_mask)
-#         res = nn.functional.softmax(roberta_output.logits, dim=-1)
-#         return res
 
 def train(args, train_dataset, model, tokenizer):
     train_sampler = RandomSampler(train_dataset)
