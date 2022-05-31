@@ -18,11 +18,11 @@ This work presents LITE:beers:, a new approach that formulates entity typing as 
     CUDA Version 11.1
   
 ## Dataset  
-The Ultra-fine Entity Typing (UFET) dataset is available at https://www.cs.utexas.edu/~eunsol/html_pages/open_entity.html. Before running the experiments, please download and unzip it to directory ./data and run ./data/data_processing.py to obtain the formatted data.
+The Ultra-fine Entity Typing (UFET) dataset is available at https://www.cs.utexas.edu/~eunsol/html_pages/open_entity.html. 
 
 
 ## Run the experiment  
-1. Download UFET data and move its /release directory to /data
+1. Download and unzip UFET data. Move its /release directory to /data
 2. Run data/process_ultrafine.py to pre-process UFET data
 3. Edit and run lite.sh to run the experiment for training.
 4. Edit and run eval.sh to generate type vocab rankings given their confidence score
